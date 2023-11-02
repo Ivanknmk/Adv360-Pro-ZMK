@@ -22,6 +22,7 @@
   behaviors {
     #include "macros.dtsi"
 
+
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
@@ -30,8 +31,8 @@
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
+
     };
-  };
 
     keymap {
         compatible = "zmk,keymap";
